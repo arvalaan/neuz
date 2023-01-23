@@ -65,7 +65,7 @@ impl ClientStats {
             self.target_hp.update_value(image),
             self.target_mp.update_value(image),
         ];
-        if should_debug.contains(&true) && false {
+        if should_debug.contains(&true) {
             self.debug_print(logger);
         }
     }
@@ -99,10 +99,7 @@ impl ClientStats {
                 self.is_alive = true
             }
         }
-        return self.is_alive
-
-
-
+        return self.is_alive;
     }
 
     pub fn debug_print(&mut self, logger: &Logger) {
