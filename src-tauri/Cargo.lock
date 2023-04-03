@@ -1756,7 +1756,7 @@ dependencies = [
 [[package]]
 name = "libscreenshot"
 version = "0.3.1"
-source = "git+https://github.com/MadrigalStreetCartel/libscreenshot?branch=area-capture#2bd0a19c8784f8faec535fa5e78199de4d71664d"
+source = "git+https://github.com/MadrigalStreetCartel/libscreenshot#487de2adc872eedad7ff5eae06ed8a3bca6d1fff"
 dependencies = [
  "cocoa",
  "core-foundation",
@@ -1834,7 +1834,7 @@ dependencies = [
 [[package]]
 name = "macos-bindings"
 version = "0.1.0"
-source = "git+https://github.com/MadrigalStreetCartel/libscreenshot?branch=area-capture#2bd0a19c8784f8faec535fa5e78199de4d71664d"
+source = "git+https://github.com/MadrigalStreetCartel/libscreenshot#487de2adc872eedad7ff5eae06ed8a3bca6d1fff"
 dependencies = [
  "bindgen",
  "objc",
@@ -3278,9 +3278,9 @@ dependencies = [
 
 [[package]]
 name = "spin"
-version = "0.9.4"
+version = "0.9.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7f6002a767bff9e83f8eeecf883ecb8011875a21ae8da43bffb817a57e78cc09"
+checksum = "6980e8d7511241f8acf4aebddbb1ff938df5eebe98691418c4468d0b72a96a67"
 dependencies = [
  "lock_api",
 ]
