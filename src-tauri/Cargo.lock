@@ -1317,9 +1317,9 @@ checksum = "ff893cc51ea04f8a3b73fbaf4376c06ebc5a0ccbe86d460896f805d9417c93ea"
 
 [[package]]
 name = "h2"
-version = "0.3.13"
+version = "0.3.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "37a82c6d637fc9515a4694bbf1cb2457b79d81ce52b3108bdeea58b07dd34a57"
+checksum = "66b91535aa35fea1523ad1b86cb6b53c28e0ae566ba4a460f4457e936cad7c6f"
 dependencies = [
  "bytes",
  "fnv",
@@ -1756,7 +1756,7 @@ dependencies = [
 [[package]]
 name = "libscreenshot"
 version = "0.3.1"
-source = "git+https://github.com/MadrigalStreetCartel/libscreenshot?branch=area-capture#2bd0a19c8784f8faec535fa5e78199de4d71664d"
+source = "git+https://github.com/MadrigalStreetCartel/libscreenshot#487de2adc872eedad7ff5eae06ed8a3bca6d1fff"
 dependencies = [
  "cocoa",
  "core-foundation",
@@ -1834,7 +1834,7 @@ dependencies = [
 [[package]]
 name = "macos-bindings"
 version = "0.1.0"
-source = "git+https://github.com/MadrigalStreetCartel/libscreenshot?branch=area-capture#2bd0a19c8784f8faec535fa5e78199de4d71664d"
+source = "git+https://github.com/MadrigalStreetCartel/libscreenshot#487de2adc872eedad7ff5eae06ed8a3bca6d1fff"
 dependencies = [
  "bindgen",
  "objc",
